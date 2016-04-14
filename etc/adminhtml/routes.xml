@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+	<router id="admin">
+		<route id="suite900" frontName="suite900">
+			<module name="Suite900_Menu" />
+		</route>
+	</router>
+
+</config>
