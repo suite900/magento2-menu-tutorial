@@ -6,6 +6,6 @@
 		<add id="Suite900_Menu::team" title="Team" sortOrder="20" module="Suite900_Menu" parent="Suite900_Menu::menu" resource="Suite900_Menu::menu_team" />
 		<add id="Suite900_Menu::team_dev" title="Development" module="Suite900_Menu" parent="Suite900_Menu::team" resource="Suite900_Menu::menu_team_dev" action="suite900/team/dev"/>
 		<add id="Suite900_Menu::team_seo" title="SEO" module="Suite900_Menu" parent="Suite900_Menu::team" resource="Suite900_Menu::menu_team_seo" action="suite900/team/seo"/>
-		<add id="Suite900_Heloo::team_management" title="Management2" module="Suite900_Menu" parent="Suite900_Menu::team" resource="Suite900_Menu::menu_team_management" action="suite900/team/management"/>
+		<add id="Suite900_Heloo::team_management" title="Management" module="Suite900_Menu" parent="Suite900_Menu::team" resource="Suite900_Menu::menu_team_management" action="suite900/team/management"/>
 	</menu>
 </config>

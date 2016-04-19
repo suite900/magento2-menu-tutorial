@@ -27,6 +27,7 @@
 .icon-lab:before {
     content: "\e900";
 }
-.admin__menu #menu-suite900-menu-menu a:before{
-     content: "\e900";
+.admin__menu #menu-suite900-menu-menu > a:before{
+    font-family: 'icomoon' !important;
+    content: "\e900";
 }
