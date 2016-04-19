@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+            	<resource id="Suite900_Menu::menu" title="S900 Menu">
+            		<resource id="Suite900_Menu::menu_team" title="Teams">
+            			<resource id="Suite900_Menu::menu_team_dev" title="Development"/>
+            			<resource id="Suite900_Menu::menu_team_seo" title="SEO"/>
+            			<resource id="Suite900_Menu::menu_team_management" title="Management"/>
+            		</resource>
+
+            	</resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

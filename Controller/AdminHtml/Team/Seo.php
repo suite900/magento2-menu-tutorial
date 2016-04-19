@@ -1,6 +1,6 @@
 <?php
 
-namespace Suite900\Hello\Controller\Adminhtml\Team;
+namespace Suite900\Menu\Controller\Adminhtml\Team;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;

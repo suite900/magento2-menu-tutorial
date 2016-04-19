@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left">
+	
+	<head>
+		<css src="Suite900_Menu::css/team.css" />
+	</head>
+
+	<body>
+		<referenceContainer name="content">
+			<block class="Suite900\Menu\Block\Main" name="team.management" template="team/management.phtml"/>
+		</referenceContainer>
+	</body>
+</page>
