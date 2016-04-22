@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<config>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
 	<menu>
 		<add id="Suite900_Menu::menu" title="S900 Menu" sortOrder="20" module="Suite900_Menu" resource="Suite900_Menu::menu"/>
 		<add id="Suite900_Menu::team" title="Team" sortOrder="20" module="Suite900_Menu" parent="Suite900_Menu::menu" resource="Suite900_Menu::menu_team" />
